@@ -6,6 +6,7 @@
 
 library(data.table)
 library(reshape2)
+# Create data folder into project directory.
 path <- file.path(getwd(), "data")
 url <-
   "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
